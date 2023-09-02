@@ -1,0 +1,186 @@
+body{
+margin: 0;
+}
+#principal{
+    background-color: #e6f8e3;
+}
+.header-principal{
+    display: flex;
+    background-color: white;
+    flex-flow: row;
+    justify-content: space-between;
+}
+.header-principal img{
+    width: 10%;
+    margin: 30px;
+}
+.header-principal nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-principal nav a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: rgb(13, 128, 99);
+    transition-duration: 0.5s;
+}
+.header-principal nav a:hover{
+    color:rgba(2, 37, 33, 0.795);
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    color:rgb(57, 95, 57);
+    text-align: center;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(57, 95, 57);
+    margin-top: 0;
+    text-align: center;
+}
+small{
+    color: rgb(224, 224, 224);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.content-section{
+    padding: 10px;
+    overflow: auto;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+.banner{
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+.banner-pac{
+    background-image: url(../imagens/banner-pacientes.png);
+    background-position: left center;
+    height: 200px;
+}
+.title{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info-pac h2{
+    text-align: left;
+}
+.bloco-paciente{
+    display: flex;
+    flex-flow:row;
+}
+.bloco-paciente p{
+    width: auto;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    padding-right: 10px;
+    color: rgb(119, 138, 100);
+}
+.bloco-paciente img{
+    width: 30%;
+    padding-right: 20px;
+}
+.bloco-paciente a{
+    background-color: rgb(101, 188, 214);
+    color: rgb(224, 238, 234);
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.bloco-paciente a:hover{
+    border: 2px solid lightgray;
+    background-color: rgb(181, 203, 224);
+}
+.vac{
+    width: 80%;
+    margin: auto;
+}
+.content-section-v{
+    background-color: #cef3c8;
+    border-radius: 10px;
+}
+.square{
+    width: 32%;
+    float: left;
+    box-sizing: border-box;
+}
+.square-1, .square-2, .square-4, .square-5{
+    margin-right: 2%;
+}
+.square img{
+    width: 100%;
+    display: block;
+    margin: auto;
+    padding-bottom: 5px;
+    border-radius: 100%;
+}
+.square p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(119, 138, 100);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+p::selection , h1::selection, h2::selection, a::selection, h1::selection, td::selection, b::selection,  b::selection,  i::selection{
+    color: whitesmoke;
+    background-color: rgb(103, 156, 129);
+}
+img::selection{
+    background-color: rgb(103, 156, 129); 
+}
+.banner-vac{
+    background-image: url(../imagens/banner-vacinas.png);
+    background-position: right center;
+    height: 300px;
+}
+.table-vp{
+    width: 100%; 
+}
+th{
+    background-color: rgb(0, 70, 52);
+    padding: 15px;
+    color: white;
+    text-transform: uppercase;
+}
+.linha{
+    padding-right: 50px;
+    padding-left: 50px;
+    padding: 10px;
+}
+table{
+    border-collapse: collapse;
+    box-shadow:rgb(65, 63, 63) 0.1em 0.1em 0.2em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tabela{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.table{
+    width: 30%; 
+}
+.rodape{
+    background-color: rgb(72, 121, 98);
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+
+
+   
